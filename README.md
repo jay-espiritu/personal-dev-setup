@@ -51,17 +51,21 @@ Optional Utilities:
 
 $ brew install jq
 
-# iTerm2 (Terminal Alternative) https://iterm2.com/
+# iTerm2 
+## (Terminal Alternative) https://iterm2.com/
 $ brew cask install iterm2
 
-# Alfred4 (Spotlight Alternative) https://www.alfredapp.com/
+# Alfred4 
+## (Spotlight Alternative) https://www.alfredapp.com/
 
 $ brew cask install alfred
 
-# HyperSwitch (Window Switcher - Alt + Tab on Windows) https://bahoom.com/hyperswitch
+# HyperSwitch 
+## (Window Switcher - Alt + Tab on Windows) https://bahoom.com/hyperswitch
 
 $ brew cask install hyperswitch
 
-# Spectacle (Windows Manager - Resizing and positioning) https://www.spectacleapp.com/
+# Spectacle
+## (Windows Manager - Resizing and positioning) https://www.spectacleapp.com/
 
 $ brew cask install spectacle
