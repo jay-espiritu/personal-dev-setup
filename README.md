@@ -32,6 +32,7 @@ $	brew install git
 
 ## Configure Git
 $	git config --global user.name "John Doe"
+
 $	git config --global user.email example@example.com
 
 ## Python
