@@ -2,10 +2,12 @@
 
 ## Xcode CLI
 $	xcode-select --install
+
 $	sudo xcode-select -switch /Library/Developer/CommandLineTools
 
 ## Homebrew
 $	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 $	brew doctor
 
 ## iTerm2
@@ -44,14 +46,17 @@ $   brew cask install java
 ## Node.js
 ### Install NVM
 $	touch ~/.bash_profile
+
 $	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
 ### Use Node.js Specific Version
 $	nvm install <version>
+
 $	nvm use <version>
 
 ### Use Node.js Latest Version
 $	nvm install --lts
+
 $	nvm use --lts
 
 ## Web Browser
