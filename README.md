@@ -1,71 +1,92 @@
-# Homebrew
+# MacOS Developer Setup
 
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+## Xcode CLI
+$	xcode-select --install
+$	sudo xcode-select -switch /Library/Developer/CommandLineTools
 
-# Python
+## Homebrew
+$	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$	brew doctor
 
-$ brew install python
+## iTerm2
+$	brew cask install item2
+[iTerm Themes](https://iterm2colorschemes.com/)
 
-# Node.js
+## OSX Productivity
 
-$ brew install node
+### Tiles (Windows Management)
+-   https://www.sempliva.com/tiles/
 
-# AWS CLI Version 1
+### Hyperswitch (Windows Management)
+$	brew cask install hyperswitch
 
-$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
-unzip awscli-bundle.zip
-sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+### Alfred4
+$	brew cask install alfred
+- [Using cmd+space hotkey](https://www.alfredapp.com/help/troubleshooting/cmd-space/)
 
-# Configuring AWS CLI
+## Docker
+$	brew cask install docker
 
-$ aws configure
+## Git
+$	brew install git
 
-# Salfesforce CLI
+## Configure Git
+$	git config --global user.name "John Doe"
+$	git config --global user.email example@example.com
 
-$ npm install sfdx-cli --global
+## Python
+$   brew install python
 
-# Xcode
+## Java JDK
+$   brew cask install java
 
-1.	Go to App Store > Search XCode > Install
-2.	After installation execute $ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+## Node.js
+### Install NVM
+$	touch ~/.bash_profile
+$	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
-# Git
+### Use Node.js Specific Version
+$	nvm install <version>
+$	nvm use <version>
 
-$ brew install git
+### Use Node.js Latest Version
+$	nvm install --lts
+$	nvm use --lts
 
-# Github Desktop
+## Web Browser
+### Chrome
+$	brew cask install google-chrome
+-   https://www.google.com/chrome/
 
-https://desktop.github.com/
+### Chrome Extensions
+- LastPass
+- Momentum
+- Pocket
+- AdBlocker
+- Grammarly
 
-# SourceTree (GitExtension Alternative)
+### Firefox
+$	brew cask install firefox
+-   https://www.mozilla.org/en-US/firefox/new/
 
-https://www.sourcetreeapp.com/
+## Code Editors
+### Visual Studio Code
+$   brew cask install visual-studio-code
 
-# Visual Studio Code
+### Visual Studio
+$   brew cask install visual-studio
 
-$ brew install visual-studio-code
+### IntelliJ
+$   brew cask install intellij-idea
 
-Optional Utilities:
+## Postman
+$	brew cask install postman
 
-# Install JQ formula https://formulae.brew.sh/formula/jq
+## VLC
+$	brew cask install vlc
 
-$ brew install jq
+## Slack
+$	brew cask install slack
 
-# iTerm2 
-## (Terminal Alternative) https://iterm2.com/
-$ brew cask install iterm2
-
-# Alfred4 
-## (Spotlight Alternative) https://www.alfredapp.com/
-
-$ brew cask install alfred
-
-# HyperSwitch 
-## (Window Switcher - Alt + Tab on Windows) https://bahoom.com/hyperswitch
-
-$ brew cask install hyperswitch
-
-# Spectacle
-## (Windows Manager - Resizing and positioning) https://www.spectacleapp.com/
-
-$ brew cask install spectacle
+## Lastpass
+$	brew cask install lastpass
