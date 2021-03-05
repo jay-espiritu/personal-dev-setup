@@ -11,7 +11,7 @@ brew update
 
 brew install bash
 
-# Install/Configure GIT
+# Install/Configure git
 brew install git
 git config --global user.name "Jay Espiritu"
 git config --global user.email juan.aa.espiritu@gmail.com
@@ -44,6 +44,7 @@ brew install --cask alfred
 brew install --cask tiles
 brew install --cask hyperswitch
 brew install vcprompt
+brew install --cask hiddenbar
 
 mkdir ~/dev
 
