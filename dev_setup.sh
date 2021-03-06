@@ -55,4 +55,6 @@ brew install --cask firefox
 brew install --cask sourcetree
 brew install --cask postman
 
+# Apple setup
+defaults write com.apple.finder AppleShowAllFiles YES # Show hidden files
 exit
